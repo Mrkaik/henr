@@ -14,7 +14,7 @@
 .fade-in.imagem {
     position: center;
     width: 172px;
-	max-widht: 100%;
+	  max-width: 100%;
     height: auto;
     left: 38px;
     top: 111px;
@@ -53,7 +53,7 @@
   
     /* Estilos para as imagens dentro das seções com classe "fade-in" */
     .fade-in img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
     };
   
