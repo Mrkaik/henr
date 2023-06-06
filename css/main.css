@@ -1,65 +1,63 @@
-/* Retângulo 1 */
+/* Estilos para o ícone com classe "fa-info" */
 .fa.fa-info {
-    position: center;
-    width: 171.75px;
-    height: 103.49px;
-    left: 37px;
-    top: 265.24px;
-    background-image: url(hf.jpg);
-    transform: rotate(-0.41deg);
-  };
-  
+  position: center;
+  width: 171.75px;
+  height: 103.49px;
+  left: 37px;
+  top: 265.24px;
+  background-image: url(hf.jpg);
+  transform: rotate(-0.41deg);
+}
 
-
+/* Estilos para a seção com classe "fade-in.imagem" */
 .fade-in.imagem {
-    position: center;
-    width: 172px;
-	  max-width: 100%;
+  position: center;
+  width: 400px; /* Ajuste o valor conforme necessário */
+  max-width: 100%;
+  height: auto;
+  left: 38px;
+  top: 111px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px; /* Ajuste o valor conforme necessário */
+  line-height: 1.5;
+  color: #000000;
+}
+
+/* Estilos para o botão com classe "button" */
+.button {
+  display: inline-block;
+  text-align: center;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+@media only screen and (min-width: 600px) {
+  /* Estilos para dispositivos Android de tela grande */
+
+  /* Estilos para as seções com classe "fade-in" */
+  .fade-in img {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Estilos para as imagens dentro das seções com classe "fade-in" */
+  .fade-in img {
+    width: 100%;
     height: auto;
-    left: 38px;
-    top: 111px;
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
   }
-  
 
-  .button {
-    display: inline-block;
-    text-align: center;
+  /* Estilos para o ícone com classe "fa-info" */
+  .fa-info {
+    width: 100%;
     background-color: #3498db;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 10px 20px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
   }
-  
-
-  @media only screen and (min-width: 600px) {
-    /* Estilos para dispositivos Android de tela grande */
-  
-    /* Estilos para as seções com classe "fade-in" */
-    .fade-in img {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-    };
-  
-    /* Estilos para as imagens dentro das seções com classe "fade-in" */
-    .fade-in img {
-      width: 100%;
-      height: auto;
-    };
-  
-    /* Estilos para o ícone com classe "fa-info" */
-    .fa-info {
-      font-size: 24px;
-    };
-  }
-  
+}
